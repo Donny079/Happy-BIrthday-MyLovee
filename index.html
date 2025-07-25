@@ -8,7 +8,10 @@
     <script src="main.js" type="text/javascript"></script><title>Flowers</title>
 </head>
 <body class="not-loaded">
-    <audio id="heart-sound" src="Happy Birthday to You (Instrumental).mp3" autoplay loop preload="auto"></audio>
+<audio id="music" loop>
+  <source src="happy-birthday.mp3" type="audio/mpeg">
+</audio>
+<button onclick="document.getElementById('music').play()">🔊 Play Music</button>
     <div class="birthday-message">
         <h1>Happy Birthday Love</h1>
         <p>I love you so much</p>
